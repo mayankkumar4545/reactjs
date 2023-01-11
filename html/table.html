@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        table,tr,th,td{
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+            border-spacing: 5px;
+            border-color:black;
+        }
+        th{
+            color: white;
+            background-color:brown;
+        }
+        td{
+            background-color: aqua;
+            text-align: center;
+        }
+        .first th {
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    
+    
+        <table>
+            <thead>
+                <h1> Table </h1>
+            </thead>
+            
+            <tbody>
+                <tr>
+                    <th>Subject</th>
+                    <th>Theory</th>
+                    <th>Practical</th>
+                    <th>Theory + Practical</th>
+                </tr>
+                <tr>
+                    <th>Physics</th>
+                    <td>70</td>
+                    <td>25</td>
+                    <td>95</td>
+                </tr>
+                <tr>
+                    <th>Chemistry</th>
+                    <td>70</td>
+                    <td>25</td>
+                    <td>95</td>
+                </tr>
+                <tr>
+                    <th>Maths</th>
+                    <td>90</td>
+                    <td>-</td>
+                    <td>95</td>
+                </tr>
+               
+                <tr class="first"><th colspan="3">Total</th>
+                    <th>280</th>
+                </tr>
+               
+            
+            </tbody>
+        </table>
+
+
+    
+    
+</body>
+</html>

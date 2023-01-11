@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+   
+}
+body {
+   
+   
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    padding: 5%;
+    color:black ;
+    text-align: center;
+    background-color: lightslategray ;
+    font-family: cursive;
+    font-size: x-large;
+    
+}
+.sticky{
+    position: sticky;
+    top: 0%;
+}
+nav{
+    width: 100%;
+    background-color: black;
+    overflow: auto;
+}
+nav a{
+  float: left;
+  padding: 3%;
+  color: lightskyblue;
+  text-decoration: none;
+  font-size: 16px;
+  width: 25%;
+  text-align: center;
+}
+section{
+
+    background-color: rgb(17, 124, 143);
+    text-align: center; 
+    border-color: black;
+}
+section.first_1 h2{
+    padding: 2%;
+    color: whitesmoke;
+    font-family: cursive;
+}
+section.first_1 {
+   padding-bottom: 2cm;
+}
+section.second_2 h2{
+    padding: 2%;
+    color: whitesmoke;
+    font-family: cursive;
+}
+section.second_2{
+    padding-bottom: 2cm;
+}
+section.third_3 h2{
+    padding: 2%;
+    color: whitesmoke;
+    font-family: cursive;
+}
+section.third_3{
+    padding-bottom: 2cm;
+}
+section.fourth_4 h2{
+    padding: 2%;
+    color: whitesmoke;
+    font-family: cursive;
+}
+section.fourth_4{
+    padding-bottom: 2cm;
+}
+section.fifth_5{
+    padding-bottom: 2cm;
+}
+section.fifth_5 h2{
+    padding: 2%;
+    color: whitesmoke;
+    font-family: cursive;
+}
+section.fifth_5 h5{
+    color: black;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer.sixth_6{
+    margin-top: 0.5cm;
+    overflow: auto;
+    width: 100%;
+    background-color: black; 
+}
+footer a{
+    float: left;
+    padding: 2%;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 15px;
+    width: 18%;
+    text-align: center;
+}
+@media (orientation:landscape) {
+    body{
+        color: pink;
+    }
+    
+}

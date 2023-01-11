@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>email</title>
+    <style>
+        @media all and (min-width: 600px) {
+            .email ::after{
+                content: " (" attr(data-email)")";
+                color: black;
+                font-weight: bold;
+                font-style: italic;
+                margin-left: 2px;
+            }
+            .email ::before {
+                content: "Email:- ";
+                color: black;
+                font-weight: bold;
+                font-style: italic;
+                margin-right: 5px;
+            }
+           
+        }
+        @media all and (max-width:599px) {
+            .email a::before{
+                content: "🏊🏽‍♂️";
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="email">
+
+        <a  data-email="starmayank4545@gmail.com" href="mailto:starmayank4545@gmail.com">Ms Mayank Yadav</a>
+
+    </div>
+    
+</body>
+</html>
